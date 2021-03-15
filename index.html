@@ -16,12 +16,12 @@
 </head>
 <!-- Полоска навигации -->
   <body>
-    <header class="head">
+    <header class="header">
         <div class="container">
-          <nav class="dnav">
+          <nav class="header-nav">
           
-              <a href="/" class="logo" >
-                <span class="logo-web">Web</span>Studio
+              <a href="/" class="header-logo" >
+                <span class="header-logo-web">Web</span>Studio
               </a>
             
             
@@ -66,22 +66,22 @@
     <main>
       <!-- Герой - шапка -->
       <section class="hero-bg">
-          <div class="servise">
+          <div class="hero-servise">
             <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
-            <a class="servise-a" data-modal-open href="#">
+            <a class="hero-servise-a" data-modal-open href="#">
               Заказать услугу
             </a>
             <div class="backdrop is-hidden" data-modal>
               <div class="modal" >
-                <button class="close-modal" data-modal-close>
-                  <svg class="close-icon" >
+                <button class="modal-close" data-modal-close>
+                  <svg class="modal-close-icon" >
                     <use href="./images/icons.svg#close-form"></use>
                   </svg>
                 </button>
-                <form class="form-content">
+                <form class="modal-content">
                   <h2>Оставьте свои данные, мы вам перезвоним</h2>
 
-                  <label class="form-field" >
+                  <label class="modal-field" >
                     <span>Имя</span> 
                     <input class="input-modal" type="text"  autofocus/>
                     <svg class="modal-icon" >
@@ -89,7 +89,7 @@
                     </svg>
                   </label>
                   
-                  <label class="form-field" >
+                  <label class="modal-field" >
                     <span>Телефон</span> 
                     <input class="input-modal" type="text"/>
                     <svg class="modal-icon" >
@@ -97,7 +97,7 @@
                     </svg>
                   </label>
             
-                  <label class="form-field" >
+                  <label class="modal-field" >
                     <span>Почта</span> 
                     <input class="input-modal" type="text"/>
                     <svg class="modal-icon" >
@@ -105,21 +105,21 @@
                     </svg>
                   </label>
 
-                  <label class="form-field">
+                  <label class="modal-field">
                     <span>Комментарий</span>
                     <textarea class="input-modal" name="coment" id="coment" cols="30" rows="8" placeholder="Введите текст"
                     ></textarea>
                   </label>
                   
                   <label class="policy"><!--field -->
-                    <input class="checkbox" type="checkbox" name="policy" value="policy"/>
-                      <svg class="checkbox-icon" >
+                    <input class="policy-checkbox" type="checkbox" name="policy" value="policy"/>
+                      <svg class="policy-checkbox-icon" >
                           <use href="./images/icons.svg#license-submit2-form">
                           </use>
                       </svg>
                     <span class="policy-text">Соглашаюсь с рассылкой и принимаю <a href=""> Условия договора</a></span>
                   </label>
-                <button class="button-modal" type="submit">Отправить</button>
+                <button class="modal-button" type="submit">Отправить</button>
                 </form>
               </div>
             </div>
@@ -128,35 +128,35 @@
       <!-- Особености-->
       <section>
         <div class="container index">
-          <div class="dfeater">
+          <div class="feater">
             <h2 class="visually-hidden">Особенности</h2> <!-- hiden h2 -->
-              <ul class="lfeature">
-                <li class="lfeature-item">
+              <ul class="feature-items">
+                <li class="feature-item">
                   <svg class="feature-icon" >
                     <use href="./images/icons.svg#icon-antenna"></use>
                   </svg>
-                  <h3 class="feater">Внимание к деталям</h3>
+                  <h3 class="feater-title">Внимание к деталям</h3>
                   <p class="item">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li class="lfeature-item">
+                <li class="feature-item">
                   <svg class="feature-icon" >
                     <use href="./images/icons.svg#icon-clock"></use>
                   </svg>
-                  <h3 class="feater">Пунктуальность</h3>
+                  <h3 class="feater-title">Пунктуальность</h3>
                   <p class="item">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li class="lfeature-item">
+                <li class="feature-item">
                   <svg class="feature-icon" >
                     <use href="./images/icons.svg#icon-diagram"></use>
                   </svg>
-                  <h3 class="feater">Планирование</h3>
+                  <h3 class="feater-title">Планирование</h3>
                   <p class="item">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li class="lfeature-item">
+                <li class="feature-item">
                   <svg class="feature-icon" >
                     <use href="./images/icons.svg#icon-astronaut"></use>
                   </svg>
-                  <h3 class="feater">Современные технологии</h3>
+                  <h3 class="feater-title">Современные технологии</h3>
                   <p class="item">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
               </ul>
@@ -167,35 +167,35 @@
       <section>
         <div class="container index">
         <div class="whatdo">
-          <h2 class="indexh">Чем мы занимаемся</h2>
-            <ul class="doul">
+          <h2 class="common-title">Чем мы занимаемся</h2>
+            <ul class="whatdo-items">
 
-            <li class="doul-item">
+            <li class="whatdo-item">
               <div class="thumb">
                 <img src="images/img1.jpg"   alt="close-up-image-programer-working-his-desk-office_1098-18707" />
-                <div class="product-actions">
+                <div class="whatdo-actions">
                   <h3>Десктопные приложения</h3>
                 </div>
               </div>
             </li>
 
-            <li class="doul-item">
+            <li class="whatdo-item">
               <div class="thumb">
                 <img
                 src="images/img2.jpg"
                 alt="web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713"/>
-                <div class="product-actions">
+                <div class="whatdo-actions">
                   <h3>Мобильные приложения</h3>
                 </div>
               </div>
           </li>
 
-            <li class="doul-item">
+            <li class="whatdo-item">
               <div class="thumb">
                 <img
                 src="images/img3.jpg"
                 alt="creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119"/>
-                <div class="product-actions">
+                <div class="whatdo-actions">
                   <h3>Дизайнерские решения</h3>
                 </div>
               </div>
@@ -206,21 +206,23 @@
       </div>
       </section>
       <!-- Наша команда -->
-      <section class="sec-team">
-        <div class="dteam">
-          <h2 class="indexh">Наша команда</h2>
-            <ul class="ulteam">
-              <li class="ulteam-item">
+      <section class="team">
+        <div class="team-container">
+          <h2 class="common-title">Наша команда</h2>
+
+            <ul class="team-list">
+
+              <li class="team-item">
                 <article>
                   <div class="img-thumb">
                     <img src="images/pers1.jpg" alt="Игорь Демьяненко"/>
                   </div>
-                  <div class="content-team">
-                    <h3 class="team">Игорь Демьяненко</h3>
-                    <p class="team des">Product Designer</p>
+                  <div class="team-content">
+                    <h3 class="team-name">Игорь Демьяненко</h3>
+                    <p class="team-name des">Product Designer</p>
                     <ul class="social">
                       <li>
-                        <a class="link-soc">
+                        <a class="social-link">
                           <svg class="social-icon" width="22" height="22">
                             <use href="./images/icons.svg#icon-instagram">
                             </use>
@@ -229,7 +231,7 @@
                       </li>
 
                       <li>
-                        <a class="link-soc">
+                        <a class="social-link">
                           <svg class="social-icon" width="22" height="22">
                             <use href="./images/icons.svg#icon-twitter"></use>
                           </svg>
@@ -237,7 +239,7 @@
                       </li>
 
                       <li>
-                        <a class="link-soc">
+                        <a class="social-link">
                           <svg class="social-icon" width="22" height="22">
                             <use href="./images/icons.svg#icon-facebook"></use>
                           </svg>
@@ -245,7 +247,7 @@
                       </li>
 
                       <li>
-                        <a class="link-soc">
+                        <a class="social-link">
                           <svg class="social-icon" width="22" height="22">
                             <use href="./images/icons.svg#icon-linkedin"></use>
                           </svg>
@@ -255,17 +257,18 @@
                   </div>
                 </article>
               </li>
-              <li class="ulteam-item">
+
+              <li class="team-item">
               <article>
                 <div class="img-thumb">
                   <img src="images/pers2.jpg" alt="Ольга Репина"/>
                 </div>
-                <div class="content-team">
-                  <h3 class="team">Ольга Репина</h3>
-                  <p class="team des">Frontend Developer</p>
+                <div class="team-content">
+                  <h3 class="team-name">Ольга Репина</h3>
+                  <p class="team-name des">Frontend Developer</p>
                   <ul class="social">
                     <li>
-                      <a class="link-soc">
+                      <a class="social-link">
                         <svg class="social-icon" width="22" height="22">
                           <use href="./images/icons.svg#icon-instagram">
                           </use>
@@ -274,7 +277,7 @@
                     </li>
 
                     <li>
-                      <a class="link-soc">
+                      <a class="social-link">
                         <svg class="social-icon" width="22" height="22">
                           <use href="./images/icons.svg#icon-twitter"></use>
                         </svg>
@@ -282,7 +285,7 @@
                     </li>
 
                     <li>
-                      <a class="link-soc">
+                      <a class="social-link">
                         <svg class="social-icon" width="22" height="22">
                           <use href="./images/icons.svg#icon-facebook"></use>
                         </svg>
@@ -290,7 +293,7 @@
                     </li>
 
                     <li>
-                      <a class="link-soc">
+                      <a class="social-link">
                         <svg class="social-icon" width="22" height="22">
                           <use href="./images/icons.svg#icon-linkedin"></use>
                         </svg>
@@ -301,17 +304,17 @@
               </article>
               </li>
 
-              <li class="ulteam-item">
+              <li class="team-item">
                 <article>
                   <div class="img-thumb">
                     <img src="images/pers3.jpg" alt="Николай Тарасов"/>
                   </div>
-                  <div class="content-team">
-                    <h3 class="team">Николай Тарасов</h3>
-                    <p class="team des">Marketing</p>
+                  <div class="team-content">
+                    <h3 class="team-name">Николай Тарасов</h3>
+                    <p class="team-name des">Marketing</p>
                     <ul class="social">
                       <li>
-                        <a class="link-soc">
+                        <a class="social-link">
                           <svg class="social-icon" width="22" height="22">
                             <use href="./images/icons.svg#icon-instagram">
                             </use>
@@ -320,7 +323,7 @@
                       </li>
 
                       <li>
-                        <a class="link-soc">
+                        <a class="social-link">
                           <svg class="social-icon" width="22" height="22">
                             <use href="./images/icons.svg#icon-twitter"></use>
                           </svg>
@@ -328,7 +331,7 @@
                       </li>
 
                       <li>
-                        <a class="link-soc">
+                        <a class="social-link">
                           <svg class="social-icon" width="22" height="22">
                             <use href="./images/icons.svg#icon-facebook"></use>
                           </svg>
@@ -336,7 +339,7 @@
                       </li>
 
                       <li>
-                        <a class="link-soc">
+                        <a class="social-link">
                           <svg class="social-icon" width="22" height="22">
                             <use href="./images/icons.svg#icon-linkedin"></use>
                           </svg>
@@ -347,17 +350,17 @@
                 </article>
               </li>
 
-              <li class="ulteam-item">
+              <li class="team-item">
                 <article>
                   <div class="img-thumb">
                     <img src="images/pers4.jpg" alt="Михаил Ермаков"/>
                   </div>
-                  <div  class="content-team">
-                    <h3 class="team">Михаил Ермаков</h3>
-                    <p class="team des">UI Designer</p>
+                  <div  class="team-content">
+                    <h3 class="team-name">Михаил Ермаков</h3>
+                    <p class="team-name des">UI Designer</p>
                     <ul class="social">
                       <li>
-                        <a class="link-soc">
+                        <a class="social-link">
                           <svg class="social-icon" width="22" height="22">
                             <use href="./images/icons.svg#icon-instagram">
                             </use>
@@ -366,7 +369,7 @@
                       </li>
 
                       <li>
-                        <a class="link-soc">
+                        <a class="social-link">
                           <svg class="social-icon" width="22" height="22">
                             <use href="./images/icons.svg#icon-twitter"></use>
                           </svg>
@@ -374,7 +377,7 @@
                       </li>
 
                       <li>
-                        <a class="link-soc">
+                        <a class="social-link">
                           <svg class="social-icon" width="22" height="22">
                             <use href="./images/icons.svg#icon-facebook"></use>
                           </svg>
@@ -382,7 +385,7 @@
                       </li>
 
                       <li>
-                        <a class="link-soc">
+                        <a class="social-link">
                           <svg class="social-icon" width="22" height="22">
                             <use href="./images/icons.svg#icon-linkedin"></use>
                           </svg>
@@ -398,7 +401,7 @@
       <!-- Постоянные клиенты -->
       <section>
         <div class=" container dclients">
-          <h2 class="indexh">Постоянные клиенты</h2>
+          <h2 class="common-title">Постоянные клиенты</h2>
             <ul class="clients">
               <li class="client">
                 <a class="aclient" href="">
@@ -447,7 +450,7 @@
       </section>
     </main>
       <!-- Подвал страницы -->
-    <footer class="fotbg">
+    <footer class="footer-bg">
       <div class="container">
         <div class="fdiv-adress">
           <a href="/" class="logof">
@@ -473,7 +476,7 @@
         </address>
       </div>
         <div class="fdiv-soc">
-          <h3 class="indexh">присоединяйтесь</h3>
+          <h3 class="common-title">присоединяйтесь</h3>
           <ul class="fsocial">
                 <li>
                   <a class="flink-soc">
@@ -510,7 +513,7 @@
           </ul>
         </div>
         <div class="fdiv-soc">
-          <h3 class="indexh">Подпишитесь на рассылку</h3>
+          <h3 class="common-title">Подпишитесь на рассылку</h3>
           <ul class="fsocial">
                 <li>
                   <input class="input-mail" type="text" placeholder="E-mail">

@@ -57,7 +57,7 @@ img {
   height: auto;
 }
 
-.head{
+.header{
   position: relative;
   display: flex;
   padding-top: 24px;
@@ -76,7 +76,7 @@ img {
   padding: 0 15px;
 }
 
-.dnav, .links-nav, .logo {
+.header-nav, .links-nav, .header-logo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,7 +96,7 @@ img {
   overflow: hidden;
 }
 
-.logo{
+.header-logo{
   font-family: 'Raleway', sans-serif;    
   font-style: normal;    
   font-weight: bold;    
@@ -107,7 +107,7 @@ img {
   
 }
 
-.logo-web{
+.header-logo-web{
   font-family: 'Raleway', sans-serif;
   color: var(--first-color);
 }
@@ -231,12 +231,12 @@ img {
   display: inline-block;
 }
 
-.fotbg{
+.footer-bg{
   margin: 0 auto;
   background: var(--hero-main-bg);
 }
 
-.fotbg .container{
+.footer-bg .container{
   padding: 60px 15px;
   
 }
@@ -277,7 +277,7 @@ a.logof{
   color: var(--adressf-color);
 }
 
-.fdiv-soc h3.indexh{
+.fdiv-soc h3.common-title{
   margin-bottom: 20px;
   font-size: 14px;
   line-height: 16px;
@@ -390,9 +390,11 @@ index.html - css
 .hero-bg{
   padding: 200px 15px;
   max-width: 1600px;
+  margin: 0 auto;
+
   background: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)
   ) ,url("../images/Img_bg.jpg");;
-  margin: 0 auto;
+  
 }
 
 .hero-text{
@@ -409,11 +411,11 @@ index.html - css
 }
 
 
-.servise{
+.hero-servise{
   text-align: center;
 }
 
-.servise  .servise-a{
+.hero-servise  .hero-servise-a{
   padding: 10px 15px;
   background: var(--first-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -464,7 +466,7 @@ index.html - css
   background-color: var(--white-color);
 }
 
-.close-modal{
+.modal-close{
   position: absolute;
   top: 8px;
   right: 8px;
@@ -480,25 +482,25 @@ index.html - css
   
 }
 
-.close-modal:hover  .close-icon,
-.close-modal:focus  .close-icon{
+.modal-close:hover  .modal-close-icon,
+.modal-close:focus  .modal-close-icon{
   fill: var(--first-color);
   color: var(--first-color);
   transition: var(--cubic-animation-time);
 }
 
-.close-icon{
+.modal-close-icon{
   width: 11px;
   height: 11px;
   fill: currentColor;
   transition: var(--cubic-animation-time);
 }
 
-.form-content{
+.modal-content{
   padding: 40px 40px 20px;
 }
 
-.form-content h2{
+.modal-content h2{
   font-weight: bold;
   font-size: 20px;
   line-height: 23px;
@@ -507,18 +509,18 @@ index.html - css
   margin-bottom: 12px;
 }
 
-.form-field{
+.modal-field{
   position: relative;
   display: flex;
   flex-direction: column;
   text-align: left;
 }
 
-.form-field:nth-child(-n+4){
+.modal-field:nth-child(-n+4){
   margin-bottom: 10px;
 }
 
-.form-field span{
+.modal-field span{
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -578,7 +580,7 @@ index.html - css
   margin: 20px 20px 30px;
 }
 
-.checkbox{
+.policy-checkbox{
   position: absolute;
   width: 1px;
   height: 1px;
@@ -591,7 +593,7 @@ index.html - css
   overflow: hidden;
 }
 
-.checkbox-icon{
+.policy-checkbox-icon{
   display: block;
   width: 16px;
   height: 15px;
@@ -603,15 +605,15 @@ index.html - css
   transition: display var(--cubic-animation-time);
 }
 
-.checkbox-icon use{
+.policy-checkbox-icon use{
   display: none;
 }
 
-.checkbox:checked + .checkbox-icon use{
+.policy-checkbox:checked + .policy-checkbox-icon use{
   display: inline-block;
 }
 
-.checkbox:checked + .checkbox-icon{
+.policy-checkbox:checked + .policy-checkbox-icon{
   border: none;
 }
 
@@ -630,7 +632,7 @@ index.html - css
   color: var(--third-color);
 }
 
-.button-modal{
+.modal-button{
   width: 200px;
   height: 50px;
   left: 700px;
@@ -652,8 +654,8 @@ index.html - css
   transition: var(--cubic-animation-time);
 }
 
-.button-modal:hover,
-.button-modal:focus{
+.modal-button:hover,
+.modal-button:focus{
   background: #188CE8;
   transition: var(--cubic-animation-time);
 }
@@ -662,19 +664,19 @@ index.html - css
   display: block;
 }
 
-.dfeater{
+.feater{
   display: flex;
   padding: 94px 0px;
   max-width: 1200px;
 }
 
-.lfeature{
+.feature-items{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.lfeature-item:nth-child(n + 2){
+.feature-item:nth-child(n + 2){
   margin-left: 30px; 
 }
 
@@ -686,7 +688,7 @@ index.html - css
   background-color: var(--filter-color);
 }
   
-.feater{
+.feater-title{
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 16px;
@@ -704,7 +706,7 @@ index.html - css
   color: var(--third-color);
 }
 
-.whatdo h2.indexh{
+.whatdo h2.common-title{
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -716,7 +718,7 @@ index.html - css
   padding-bottom: 94px;
 }
 
-.doul{
+.whatdo-items{
   padding: 0;
   margin: 0;
   justify-content: center;
@@ -724,7 +726,7 @@ index.html - css
   margin-left: calc(-1 * 30px);
 }
 
-.doul-item{
+.whatdo-item{
   flex-basis: calc(100% / 3);
   margin-left: 30px; 
 }
@@ -733,7 +735,7 @@ index.html - css
   position: relative;
 }
 
-.product-actions{
+.whatdo-actions{
   position: absolute;
   bottom: 0;
   left: 0;
@@ -742,7 +744,7 @@ index.html - css
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.product-actions h3{
+.whatdo-actions h3{
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -755,18 +757,18 @@ index.html - css
   color: var(--white-color);
 }
 
-.sec-team{
+.team{
   background-color: var(--filter-color);
   
 }
 
-.dteam{
+.team-container{
   max-width: 1200px;
   margin: 0 auto;
   padding: 94px 15px;
 }
 
-.dteam h2.indexh{
+.team-container h2.common-title{
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -774,12 +776,12 @@ index.html - css
   margin: 0px 0px 50px;
 }
 
-.ulteam{
+.team-list{
   display: flex;
   margin-left: -30px;
 }
 
-.ulteam-item{
+.team-item{
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px; 
   background: var(--white-color);
@@ -791,12 +793,12 @@ index.html - css
   border-radius: 0px;
 }
 
-.content-team{
+.team-content{
   padding: 30px 32px ;
   text-align: center;
 }
 
-.team{
+.team-name{
   margin-bottom: 10px;
   font-style: normal;
   font-weight: 500;
@@ -817,7 +819,7 @@ index.html - css
   justify-content: center;
 }
 
-.link-soc{
+.social-link{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -836,7 +838,7 @@ index.html - css
   margin-left: 10px;
 }
 
-.link-soc:hover, .link-soc:focus{
+.social-link:hover, .social-link:focus{
   fill: var(--white-color) ;
   color: var(--white-color);
   background-color: var(--first-color);
@@ -847,7 +849,7 @@ index.html - css
   fill: currentColor;
 }
 
-.dclients h2.indexh{
+.dclients h2.common-title{
   margin-bottom: 50px;
   font-size: 36px;
   line-height: 42px;
