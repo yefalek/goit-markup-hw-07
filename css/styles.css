@@ -227,7 +227,7 @@ img {
   transition: var(--cubic-animation-time);
 }
 
-.fdiv-adress{
+.footer-adress{
   display: inline-block;
 }
 
@@ -277,7 +277,7 @@ a.logof{
   color: var(--adressf-color);
 }
 
-.fdiv-soc h3.common-title{
+.footer-social h3.common-title{
   margin-bottom: 20px;
   font-size: 14px;
   line-height: 16px;
@@ -286,19 +286,19 @@ a.logof{
   color: var(--white-color);
 }
 
-.fdiv-soc{
+.footer-social{
   display: inline-block;
   margin-left: 70px;
   margin-top: 14px;
 }
 
-.fsocial{
+.footer-social-list{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.flink-soc{
+.footer-social-item{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -313,11 +313,11 @@ a.logof{
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.fsocial li:nth-child(n + 2){
+.footer-social-list li:nth-child(n + 2){
   margin-left: 10px;
 }
 
-.flink-soc:hover, .fbutton-soc:focus{
+.footer-social-item:hover, .fbutton-soc:focus{
   fill: var(--white-color) ;
   color: var(--white-color);
   background-color: var(--first-color);
