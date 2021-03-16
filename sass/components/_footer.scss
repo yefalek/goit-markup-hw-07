@@ -1,0 +1,14 @@
+.footer{
+  &-adress{
+    display: inline-block;
+  }
+
+  &-bg{
+    margin: 0 auto;
+    background: var(--hero-main-bg);
+
+    & .container{
+      padding: 60px 15px;
+    }
+  }
+}

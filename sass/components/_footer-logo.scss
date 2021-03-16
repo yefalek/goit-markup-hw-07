@@ -1,0 +1,22 @@
+.logof{
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;    
+  font-style: normal;    
+  font-weight: bold;    
+  font-size: 26px;   
+  line-height: 35px;
+  letter-spacing: 0.03em; 
+  color: var(--white-color);
+}
+
+a{
+  &.logof{
+    margin-bottom: 20px;
+  }
+}
+
+.web{
+  &.logof{
+    color: var(--first-color);
+  }
+}

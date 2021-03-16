@@ -609,7 +609,8 @@ index.html - css
   display: none;
 }
 
-.policy-checkbox:checked + .policy-checkbox-icon use{
+.policy-checkbox:checked + 
+.policy-checkbox-icon use{
   display: inline-block;
 }
 
