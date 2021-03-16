@@ -982,7 +982,9 @@ h2.var{
   border: 1px solid var(--card-portfborder-color); 
 }
 
-.project-item:focus, .project-item:hover .project-thumb p{
+.project-item:focus, 
+.project-item:hover 
+.project-thumb p{
   transform: translateY(0);
   transition: transform var(--cubic-animation-time);
 
