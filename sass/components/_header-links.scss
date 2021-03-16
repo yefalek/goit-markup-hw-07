@@ -17,7 +17,7 @@
 
 .links-nav{
   & li{
-    & :first-child{
+    &:first-child{
       margin-left: 0px;
     }
   }
@@ -56,7 +56,7 @@
 .links-nav{
   & .link-nav{
     &:hover,
-    :focus {
+    &:focus {
       &::after{
         color: var(--first-color);
         opacity: 1;
@@ -65,7 +65,7 @@
       }
     }
 
-    ::after{
+    &::after{
       position: absolute;
       top: 48px;
       bottom: 0;
@@ -110,7 +110,7 @@
 .links-nav{
   &.con{
     & .link-nav{
-      &:hover,:focus{
+      &:hover,&:focus{
         &::after{
           color: var(--first-color);
           opacity: 0;
@@ -124,7 +124,7 @@
 
 .links-nav{
   & .link-nav{
-    &:hover,:focus{
+    &:hover,&:focus{
       color: var(--first-color);
       transition: var(--cubic-animation-time);
     }
@@ -135,7 +135,7 @@
   margin-right: 5px;
   fill: currentColor;
 
-  &:hover,:focus{
+  &:hover,&:focus{
     fill: currentColor;
     color: var(--first-color);
     transition: var(--cubic-animation-time);
