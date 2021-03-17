@@ -837,7 +837,7 @@ a.logof {
   display: block;
 }
 
-.feater {
+.feature {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -845,7 +845,7 @@ a.logof {
   max-width: 1200px;
 }
 
-.feater-items {
+.feature-items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -857,11 +857,11 @@ a.logof {
           align-items: center;
 }
 
-.feater-items:nth-child(n + 2) {
+.feature-item:nth-child(n + 2) {
   margin-left: 30px;
 }
 
-.feater-icon {
+.feature-icon {
   width: 270px;
   height: 120px;
   padding: 20px 100px;
@@ -869,7 +869,7 @@ a.logof {
   background-color: var(--filter-color);
 }
 
-.feater-title {
+.feature-title {
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 16px;
@@ -891,7 +891,7 @@ a.logof {
   padding-bottom: 94px;
 }
 
-.whatdoh2.common-title {
+.whatdo h2.common-title {
   font-size: 36px;
   line-height: 42px;
   text-align: center;

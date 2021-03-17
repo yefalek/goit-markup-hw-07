@@ -1,4 +1,4 @@
-.feater{
+.feature{
   display: flex;
   padding: 94px 0px;
   max-width: 1200px;
@@ -7,7 +7,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
 
+  &-item{
     &:nth-child(n + 2){
       margin-left: 30px; 
     }
