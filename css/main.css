@@ -1125,7 +1125,7 @@ a.logof {
   background: var(--filter-color);
 }
 
-.filter:focus, .filter :hover {
+.filter:focus, .filter:hover {
   background: var(--first-color);
   color: var(--white-color);
   -webkit-box-shadow: var(--filter-button-shadow);
