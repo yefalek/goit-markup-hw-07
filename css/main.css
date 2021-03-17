@@ -473,15 +473,7 @@ a.logof {
   margin-left: 10px;
 }
 
-.footer-social-item:hover {
-  fill: var(--white-color);
-  color: var(--white-color);
-  background-color: var(--first-color);
-  -webkit-transition: var(--cubic-animation-time);
-  transition: var(--cubic-animation-time);
-}
-
-.fbutton-soc:focus {
+.footer-social-item:hover, .footer-social-item:focus {
   fill: var(--white-color);
   color: var(--white-color);
   background-color: var(--first-color);
@@ -509,7 +501,7 @@ a.logof {
   color: var(--white-color);
 }
 
-.button-sub-footer {
+.footer-button-sub {
   position: relative;
   display: inline-block;
   padding: 10px 25px;
@@ -524,7 +516,7 @@ a.logof {
   border: none;
 }
 
-.button-sub-footer span {
+.footer-button-sub span {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -539,6 +531,14 @@ a.logof {
   justify-items: baseline;
   letter-spacing: 0.06em;
   color: var(--white-color);
+}
+
+.footer-button-sub:focus, .footer-button-sub:hover {
+  fill: var(--white-color);
+  color: var(--white-color);
+  background-color: var(--first-color);
+  -webkit-transition: var(--cubic-animation-time);
+  transition: var(--cubic-animation-time);
 }
 
 .sub-ico-fot {
@@ -1034,7 +1034,7 @@ a.logof {
   transition: var(--cubic-animation-time);
 }
 
-.social-link:focus, .social-link :hover {
+.social-link:focus, .social-link:hover {
   fill: var(--white-color);
   color: var(--white-color);
   background-color: var(--first-color);

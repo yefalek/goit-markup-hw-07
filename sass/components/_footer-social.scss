@@ -46,21 +46,13 @@
   }
 
   &-item{
-    &:hover{
+    &:hover,&:focus{
       fill: var(--white-color) ;
       color: var(--white-color);
       background-color: var(--first-color);
       transition: var(--cubic-animation-time); 
     }
   }
-}
-
-.fbutton-soc{
-  &:focus{
-    fill: var(--white-color) ;
-    color: var(--white-color);
-    background-color: var(--first-color);
-    transition: var(--cubic-animation-time); }
 }
 
 .fsocial-icon{
@@ -82,7 +74,7 @@
   color: var(--white-color);
 }
 
-.button-sub-footer{
+.footer-button-sub{
   position: relative ;
   display: inline-block;
   
@@ -115,6 +107,12 @@
   
     color: var(--white-color);
   }
+
+  &:focus,&:hover{
+    fill: var(--white-color) ;
+    color: var(--white-color);
+    background-color: var(--first-color);
+    transition: var(--cubic-animation-time); }
 }
 
 .sub-ico-fot{
