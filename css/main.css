@@ -527,7 +527,7 @@ a.logof {
   margin-left: 10px;
 }
 
-.footer-social_item {
+.footer-social_link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -548,7 +548,7 @@ a.logof {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-social_item:hover, .footer-social_item:focus {
+.footer-social_link:hover, .footer-social_link:focus {
   fill: var(--white-color);
   color: var(--white-color);
   background-color: var(--first-color);
@@ -574,7 +574,7 @@ a.logof {
   color: var(--white-color);
 }
 
-.footer-subscribe_list {
+.footer-subscribe_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -584,10 +584,6 @@ a.logof {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.footer-subscribe_list li:nth-child(n + 2) {
-  margin-left: 10px;
 }
 
 .footer-input_mail {
@@ -609,6 +605,10 @@ a.logof {
 .footer-button_sub {
   position: relative;
   display: inline-block;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-left: 10px;
   padding: 10px 25px;
   width: 200px;
   height: 50px;
@@ -628,11 +628,13 @@ a.logof {
   line-height: 30px;
   margin-right: 10px;
   height: 30px;
-  display: inline-block;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  text-align: left;
   justify-items: baseline;
   letter-spacing: 0.06em;
   color: var(--white-color);
@@ -648,6 +650,10 @@ a.logof {
 
 .footer-icon_sub {
   position: absolute;
+  left: 73.31%;
+  right: 15.19%;
+  top: 25%;
+  bottom: 3.65%;
 }
 
 .hero {
