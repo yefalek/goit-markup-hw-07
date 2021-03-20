@@ -1,4 +1,4 @@
-.dclients{
+.clients{
   display: block;
   padding: 94px 15px;
 
@@ -9,37 +9,37 @@
     text-align: center;
     letter-spacing: 0.03em;
   }
-}
 
-.clients{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.client{
-  &:nth-child(n+2){
-    margin-left: 30px;
+  &_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  &-icon{
+  &_item{
+    &:nth-child(n+2){
+      margin-left: 30px;
+    }
+  }
+
+  &_icon{
     fill: currentColor;
   }
-}
 
-.aclient{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 170px;
-  height: 90px;
-  border: 1px solid #AFB1B8;
-  color: var(--soc-ico-col);
-  transition: var(--cubic-animation-time);
-
-  &:hover,:focus{
-    color: var(--first-color);
-    border: 1px solid var(--first-color);
+  &_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    color: var(--soc-ico-col);
     transition: var(--cubic-animation-time);
+  
+    &:hover,:focus{
+      color: var(--first-color);
+      border: 1px solid var(--first-color);
+      transition: var(--cubic-animation-time);
+    }
   }
 }

@@ -1134,12 +1134,12 @@ a.logof {
   fill: currentColor;
 }
 
-.dclients {
+.clients {
   display: block;
   padding: 94px 15px;
 }
 
-.dclients h2.common-title {
+.clients h2.common-title {
   margin-bottom: 50px;
   font-size: 36px;
   line-height: 42px;
@@ -1147,7 +1147,7 @@ a.logof {
   letter-spacing: 0.03em;
 }
 
-.clients {
+.clients_list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1159,15 +1159,15 @@ a.logof {
           justify-content: center;
 }
 
-.client:nth-child(n+2) {
+.clients_item:nth-child(n+2) {
   margin-left: 30px;
 }
 
-.client-icon {
+.clients_icon {
   fill: currentColor;
 }
 
-.aclient {
+.clients_link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1185,7 +1185,7 @@ a.logof {
   transition: var(--cubic-animation-time);
 }
 
-.aclient:hover, .aclient :focus {
+.clients_link:hover, .clients_link :focus {
   color: var(--first-color);
   border: 1px solid var(--first-color);
   -webkit-transition: var(--cubic-animation-time);
