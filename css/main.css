@@ -178,7 +178,6 @@ img {
 
 .container {
   max-width: 1200px;
-  min-width: 1200px;
   -ms-flex-item-align: center;
       align-self: center;
   display: -webkit-box;
@@ -918,6 +917,7 @@ a.logof {
   display: flex;
   padding: 94px 0px;
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 .feature-items {
