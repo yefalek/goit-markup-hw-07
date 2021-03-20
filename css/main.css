@@ -1075,7 +1075,7 @@ a.logof {
   letter-spacing: 0.03em;
 }
 
-.team.des {
+.team_profesion {
   margin-bottom: 16px;
   color: var(--third-color);
   font-weight: normal;
@@ -1085,7 +1085,7 @@ a.logof {
   border-radius: 0px;
 }
 
-.social {
+.social_list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

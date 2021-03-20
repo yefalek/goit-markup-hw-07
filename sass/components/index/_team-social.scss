@@ -1,7 +1,9 @@
 .social{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  &_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   &_link{
     display: flex;
