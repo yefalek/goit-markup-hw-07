@@ -455,6 +455,9 @@ img {
 
 .footer-bg .container {
   padding: 60px 15px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .logof {
@@ -508,7 +511,7 @@ a.logof {
   color: var(--white-color);
 }
 
-.footer-social-list {
+.footer-social_list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -520,7 +523,11 @@ a.logof {
           justify-content: center;
 }
 
-.footer-social-item {
+.footer-social_list li:nth-child(n + 2) {
+  margin-left: 10px;
+}
+
+.footer-social_item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -541,11 +548,7 @@ a.logof {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-social-list li:nth-child(n + 2) {
-  margin-left: 10px;
-}
-
-.footer-social-item:hover, .footer-social-item:focus {
+.footer-social_item:hover, .footer-social_item:focus {
   fill: var(--white-color);
   color: var(--white-color);
   background-color: var(--first-color);
@@ -553,11 +556,41 @@ a.logof {
   transition: var(--cubic-animation-time);
 }
 
-.fsocial-icon {
+.footer-social_icon {
   fill: currentColor;
 }
 
-.input-mail {
+.footer-subscribe {
+  display: inline-block;
+  margin-left: 70px;
+}
+
+.footer-subscribe h3.common-title {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.footer-subscribe_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-subscribe_list li:nth-child(n + 2) {
+  margin-left: 10px;
+}
+
+.footer-input_mail {
   width: 358px;
   height: 50px;
   padding-left: 16px;
@@ -573,7 +606,7 @@ a.logof {
   color: var(--white-color);
 }
 
-.footer-button-sub {
+.footer-button_sub {
   position: relative;
   display: inline-block;
   padding: 10px 25px;
@@ -588,7 +621,7 @@ a.logof {
   border: none;
 }
 
-.footer-button-sub span {
+.footer-button_sub span {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -605,7 +638,7 @@ a.logof {
   color: var(--white-color);
 }
 
-.footer-button-sub:focus, .footer-button-sub:hover {
+.footer-button_sub:focus, .footer-button_sub:hover {
   fill: var(--white-color);
   color: var(--white-color);
   background-color: var(--first-color);
@@ -613,7 +646,7 @@ a.logof {
   transition: var(--cubic-animation-time);
 }
 
-.sub-ico-fot {
+.footer-icon_sub {
   position: absolute;
 }
 
