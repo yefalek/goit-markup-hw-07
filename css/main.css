@@ -618,7 +618,7 @@ a.logof {
   position: absolute;
 }
 
-.hero-bg {
+.hero {
   padding: 200px 15px;
   max-width: 1600px;
   margin: 0 auto;
@@ -626,7 +626,7 @@ a.logof {
   background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Img_bg.jpg");
 }
 
-.hero-text {
+.hero-title {
   max-width: 696px;
   margin: 0px auto 30px;
   font-style: normal;
@@ -639,21 +639,23 @@ a.logof {
   color: var(--white-color);
 }
 
-.hero-servise {
+.hero-container {
   text-align: center;
 }
 
-.hero-servise-a {
+.hero-button {
   padding: 10px 15px;
-  background: var(--first-color);
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  background: var(--first-color);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--white-color);
 }
 
@@ -720,11 +722,11 @@ a.logof {
   transition: var(--cubic-animation-time);
 }
 
-.modal-content {
+.modal-form {
   padding: 40px 40px 20px;
 }
 
-.modal-content h2 {
+.modal-title {
   font-weight: bold;
   font-size: 20px;
   line-height: 23px;
@@ -749,7 +751,7 @@ a.logof {
   margin-bottom: 10px;
 }
 
-.modal-field span {
+.modal-field_name {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -759,7 +761,7 @@ a.logof {
   color: var(--third-color);
 }
 
-.modal-field textarea {
+.modal-field.textarea {
   height: 120px;
   padding: 12px 16px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -814,7 +816,7 @@ a.logof {
   transition: var(--cubic-animation-time);
 }
 
-.input-modal {
+.modal-input {
   padding-left: 40px;
   outline: none;
   height: 40px;
@@ -826,13 +828,13 @@ a.logof {
   transition: var(--cubic-animation-time);
 }
 
-.input-modal:focus, .input-modal:hover {
+.modal-input:focus, .modal-input:hover {
   border: 1px solid var(--first-color);
   -webkit-transition: var(--cubic-animation-time);
   transition: var(--cubic-animation-time);
 }
 
-.input-modal:focus + .modal-icon, .input-modal:hover + .modal-icon {
+.modal-input:focus + .modal-icon, .modal-input:hover + .modal-icon {
   fill: var(--first-color);
   color: #2196F3;
   -webkit-transition: var(--cubic-animation-time);

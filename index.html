@@ -65,12 +65,12 @@
       
     <main>
       <!-- Герой - шапка -->
-      <section class="hero-bg">
-          <div class="hero-servise">
-            <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
-            <a class="hero-servise-a" data-modal-open href="#">
+      <section class="hero">
+          <div class="hero-container">
+            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <button class="hero-button" type="button" data-modal-open href="#">
               Заказать услугу
-            </a>
+            </button>
             <div class="backdrop is-hidden" data-modal>
               <div class="modal" >
                 <button class="modal-close" data-modal-close>
@@ -78,36 +78,36 @@
                     <use href="./images/icons.svg#close-form"></use>
                   </svg>
                 </button>
-                <form class="modal-content">
-                  <h2>Оставьте свои данные, мы вам перезвоним</h2>
+                <form class="modal-form">
+                  <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
 
                   <label class="modal-field" >
-                    <span>Имя</span> 
-                    <input class="input-modal" type="text"  autofocus/>
+                    <span class="modal-field_name">Имя</span> 
+                    <input class="modal-input" type="text"  autofocus/>
                     <svg class="modal-icon" >
                       <use href="./images/icons.svg#person-ico"></use>
                     </svg>
                   </label>
                   
                   <label class="modal-field" >
-                    <span>Телефон</span> 
-                    <input class="input-modal" type="text"/>
+                    <span class="modal-field_name">Телефон</span> 
+                    <input class="modal-input" type="text"/>
                     <svg class="modal-icon" >
                       <use href="./images/icons.svg#phone-form"></use>
                     </svg>
                   </label>
             
                   <label class="modal-field" >
-                    <span>Почта</span> 
-                    <input class="input-modal" type="text"/>
+                    <span class="modal-field_name">Почта</span> 
+                    <input class="modal-input" type="text"/>
                     <svg class="modal-icon" >
                       <use href="./images/icons.svg#mail-form"></use>
                     </svg>
                   </label>
 
                   <label class="modal-field">
-                    <span>Комментарий</span>
-                    <textarea class="input-modal" name="coment" id="coment" cols="30" rows="8" placeholder="Введите текст"
+                    <span class="modal-field_name">Комментарий</span>
+                    <textarea class="modal-input textarea" name="coment" id="coment" cols="30" rows="8" placeholder="Введите текст"
                     ></textarea>
                   </label>
                   
