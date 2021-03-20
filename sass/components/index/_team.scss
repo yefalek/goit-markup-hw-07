@@ -1,18 +1,18 @@
 .team{
   background-color: var(--filter-color);
 
+  & h2.common_title{
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin: 0px 0px 50px;
+  }
+
   &_container{
     max-width: 1200px;
     margin: 0 auto;
     padding: 94px 15px;
-
-    & h2.common-title{
-      font-size: 36px;
-      line-height: 42px;
-      text-align: center;
-      letter-spacing: 0.03em;
-      margin: 0px 0px 50px;
-    }
   }
 
   &_list{

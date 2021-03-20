@@ -1030,18 +1030,18 @@ a.logof {
   background-color: var(--filter-color);
 }
 
-.team_container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 94px 15px;
-}
-
-.team_container h2.common-title {
+.team h2.common_title {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
   margin: 0px 0px 50px;
+}
+
+.team_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 94px 15px;
 }
 
 .team_list {
@@ -1180,6 +1180,7 @@ a.logof {
   width: 170px;
   height: 90px;
   border: 1px solid #AFB1B8;
+  border-radius: 4px;
   color: var(--soc-ico-col);
   -webkit-transition: var(--cubic-animation-time);
   transition: var(--cubic-animation-time);
