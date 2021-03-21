@@ -4,7 +4,7 @@
   max-width: 1200px;
   margin: 0 auto;
 
-  &_container{
+  &__container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,19 +17,19 @@
     background-color: var(--filter-color);
   }
 
-  &_items{
+  &__list{
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  &_item{
+  &__item{
     &:nth-child(n + 2){
       margin-left: 30px; 
     }
   }
 
-  &_title{
+  &__title{
     margin-bottom: 10px;
     font-size: 14px;
     line-height: 16px;
@@ -37,7 +37,7 @@
     text-transform: uppercase;
   }
 
-  &_description{
+  &__description{
     max-width: 270px; 
     font-style: normal;
     font-weight: normal;
