@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
     & li{
       &:nth-child(n + 2){
         margin-left: 10px;
