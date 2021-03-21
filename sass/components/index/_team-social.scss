@@ -1,11 +1,11 @@
 .social{
-  &_list{
+  &__list{
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  &_link{
+  &__link{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@
     }
   }
 
-  &_icon {
+  &__icon {
     fill: currentColor;
   }
 }
