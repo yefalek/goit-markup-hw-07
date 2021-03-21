@@ -96,21 +96,6 @@
 }
 
 .header-nav_list{
-  &.con{
-    & .header-nav_item{
-      &:hover,&:focus{
-        &::after{
-          color: var(--first-color);
-          opacity: 0;
-          transform: scaleX(1);
-          transition: var(--cubic-animation-time);
-        }
-      }
-    }
-  }
-}
-
-.header-nav_list{
   & .header-nav_item{
     &:hover,&:focus{
       color: var(--first-color);
