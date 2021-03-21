@@ -427,23 +427,23 @@ img {
   transition: var(--cubic-animation-time);
 }
 
-.footer-adress {
-  display: inline-block;
-}
-
-.footer-bg {
+.page-footer {
   margin: 0 auto;
   background: var(--hero-main-bg);
 }
 
-.footer-bg .container {
+.page-footer .container {
   padding: 60px 15px;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
 }
 
-.logof {
+.page-footer__adress {
+  display: inline-block;
+}
+
+.page-footer__logo {
   display: inline-block;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -454,11 +454,11 @@ img {
   color: var(--white-color);
 }
 
-a.logof {
+a.page-footer__logo {
   margin-bottom: 20px;
 }
 
-.web.logof {
+.web.page-footer__logo {
   color: var(--first-color);
 }
 
