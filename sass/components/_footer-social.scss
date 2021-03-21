@@ -1,4 +1,4 @@
-.footer-social{
+.page-footer__social{
   display: inline-block;
   margin-left: 70px;
   margin-top: 14px;
@@ -14,7 +14,7 @@
     }
   }
 
-  &_list{
+  &__list{
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -26,7 +26,7 @@
     }
   }
 
-  &_link{
+  &__link{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +48,7 @@
     }
   }
 
-  &_icon{
+  &__icon{
     fill: currentColor;
   }
 }
