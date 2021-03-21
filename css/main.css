@@ -462,7 +462,7 @@ a.page-footer__logo {
   color: var(--first-color);
 }
 
-.adressf {
+.footer-adress {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -471,11 +471,11 @@ a.page-footer__logo {
   color: var(--white-color);
 }
 
-.adressf-item {
+.footer-adress__item {
   margin-bottom: 10px;
 }
 
-.adressf a {
+.footer-adress a {
   color: var(--adressf-color);
 }
 
