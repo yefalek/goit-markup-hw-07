@@ -1006,7 +1006,7 @@ a.logof {
   margin: 0 auto;
 }
 
-.works h2.common-title {
+.works h2.common_title {
   display: block;
   font-size: 36px;
   line-height: 42px;
@@ -1171,7 +1171,7 @@ a.logof {
   padding: 94px 15px;
 }
 
-.clients h2.common-title {
+.clients h2.common_title {
   margin-bottom: 50px;
   font-size: 36px;
   line-height: 42px;
