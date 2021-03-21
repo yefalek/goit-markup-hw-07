@@ -17,7 +17,7 @@
     }
   }
   
-  & .header-contacts_item{
+  & .header-contacts__link{
     color: var(--third-color);
     font-style: normal;
     font-size: 14px;
@@ -27,7 +27,7 @@
   }
 }
 
-.header-contacts_item{
+.header-contacts__link{
   position: relative;
   display: flex;
   justify-content: center;
@@ -37,7 +37,7 @@
 }
 
 .header-contacts{
-  & .header-contacts_item{
+  & .header-contacts__link{
     &:hover,&:focus{
       &::after{
         color: var(--first-color);
@@ -51,7 +51,7 @@
 }
 
 .header-contacts{
-  & .header-contacts_item{
+  & .header-contacts__link{
     &:hover,&:focus{
       color: var(--first-color);
       transition: var(--cubic-animation-time);
@@ -59,7 +59,7 @@
   }
 }
 
-.header-contacts_icon{
+.header-contacts__icon{
   margin-right: 5px;
   fill: currentColor;
   

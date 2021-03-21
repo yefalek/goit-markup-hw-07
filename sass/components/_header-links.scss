@@ -1,4 +1,4 @@
-.header-nav_list{
+.header-nav__list{
     
   display: flex;
   align-items: center;
@@ -11,14 +11,14 @@
   }
 }
 
-.header-nav_list{
+.header-nav__list{
   & li{
     &:first-child{
       margin-left: 0px;
     }
   }
 
-  & .header-nav_item{
+  & .header-nav__link{
     color: var(--third-color);
     font-style: normal;
     font-size: 14px;
@@ -28,7 +28,7 @@
   }
 }
 
-.header-nav_item{
+.header-nav__link{
   position: relative;
   display: flex;
   justify-content: center;
@@ -41,8 +41,8 @@
   }
 }
 
-.header-nav_list{
-  & .header-nav_item{
+.header-nav__list{
+  & .header-nav__link{
     &:hover,
     &:focus {
       &::after{
@@ -95,8 +95,8 @@
   }
 }
 
-.header-nav_list{
-  & .header-nav_item{
+.header-nav__list{
+  & .header-nav__link{
     &:hover,&:focus{
       color: var(--first-color);
       transition: var(--cubic-animation-time);
