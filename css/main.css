@@ -1129,6 +1129,10 @@ a.page-footer__logo {
           justify-content: center;
 }
 
+.social__list li:nth-child(n + 2) {
+  margin-left: 10px;
+}
+
 .social__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1156,10 +1160,6 @@ a.page-footer__logo {
   background-color: var(--first-color);
   -webkit-transition: var(--cubic-animation-time);
   transition: var(--cubic-animation-time);
-}
-
-.social li:nth-child(n + 2) {
-  margin-left: 10px;
 }
 
 .social__icon {
