@@ -261,10 +261,6 @@ img {
   margin-left: 0px;
 }
 
-.header-nav_list.con li:first-child {
-  margin-left: 0px;
-}
-
 .header-nav_list .header-nav_item {
   color: var(--third-color);
   font-style: normal;
