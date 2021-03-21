@@ -8,7 +8,7 @@
   ) ,url("../images/Img_bg.jpg");;
   
 
-  &-title{
+  &__title{
     max-width: 696px;
     margin: 0px auto 30px;
     font-style: normal;
@@ -21,11 +21,11 @@
     color: var(--white-color);
   }
 
-  &-container{
+  &__container{
     text-align: center;
   }
 
-  &-button{
+  &__button{
     padding: 10px 15px;
     
     font-style: normal;

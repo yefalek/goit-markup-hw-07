@@ -13,7 +13,7 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: var(--white-color);
   
-  &-close{
+  &__close{
     position: absolute;
     top: 8px;
     right: 8px;
@@ -27,7 +27,7 @@
     box-sizing: border-box;
     background-color: var(--filter-color);
   
-    &-icon{
+    &__icon{
       width: 11px;
       height: 11px;
       fill: currentColor;
@@ -36,11 +36,11 @@
   }
 
 
-  &-form{
+  &__form{
     padding: 40px 40px 20px;
   }
 
-  &-title{
+  &__title{
     font-weight: bold;
     font-size: 20px;
     line-height: 23px;
@@ -49,7 +49,7 @@
     margin-bottom: 12px;
   }
   
-  &-field{
+  &__field{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -69,7 +69,7 @@
       margin-bottom: 10px;
     }
   
-    &_name{
+    &__name{
       font-style: normal;
       font-weight: normal;
       font-size: 12px;
@@ -81,7 +81,7 @@
 
   }
   
-  &-icon{
+  &__icon{
     position: absolute;
     width: 12px;
     height: 12px;
@@ -92,7 +92,7 @@
     transition: var(--cubic-animation-time);
   }
 
-  &-button{
+  &__button{
     width: 200px;
     height: 50px;
     left: 700px;
@@ -120,9 +120,9 @@
   }
 }
   
-.modal-close{
+.modal__close{
   &:hover,&:focus{
-    & .modal-close-icon{
+    & .modal__close__icon{
       fill: var(--first-color);
       color: var(--first-color);
       transition: var(--cubic-animation-time);  
@@ -130,7 +130,7 @@
   }
 }
   
-.modal-input{
+.modal__input{
   padding-left: 40px;
   outline: none;
   height: 40px;
@@ -152,7 +152,7 @@
     border: 1px solid var(--first-color);
     transition: var(--cubic-animation-time);
   
-    & +.modal-icon{
+    & +.modal__icon{
       fill: var(--first-color);
       color: #2196F3;
       transition: var(--cubic-animation-time);
@@ -171,7 +171,7 @@
     color: var(--first-color);
   }
 
-  &-text{
+  &__text{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -193,7 +193,7 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 
-    &-icon{
+    &__icon{
       display: block;
       width: 16px;
       height: 15px;
@@ -212,10 +212,10 @@
 }
 
 .policy-checkbox:checked + 
-.policy-checkbox-icon use{
+.policy-checkbox__icon use{
   display: inline-block;
 }
 
-.policy-checkbox:checked + .policy-checkbox-icon{
+.policy-checkbox:checked + .policy-checkbox__icon{
   border: none;
 }
