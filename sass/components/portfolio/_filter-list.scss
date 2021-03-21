@@ -6,7 +6,7 @@ h2.project_name{
 }
 
 .project{
-  &_list{
+  &__list{
     margin: 0;
     list-style: none;
     display: flex;
@@ -14,7 +14,7 @@ h2.project_name{
     margin-left: calc(-1 * var(--card-set-gap));
     margin-top: calc(-1 * var(--card-set-gap));
 
-    & > .project_item{
+    & > .project__item{
       flex-basis: calc(100% / 3 - var(--card-set-gap));
       margin-left: var(--card-set-gap);
       margin-top: var(--card-set-gap);
@@ -22,11 +22,11 @@ h2.project_name{
     }
   }
 
-  &_content{
+  &__content{
     padding: 20px 24px;
   }
 
-  &_thumb{
+  &__thumb{
     position: relative;
     overflow: hidden;
 
@@ -51,7 +51,7 @@ h2.project_name{
     }
   }
 
-  &_item{
+  &__item{
     transition: var(--cubic-animation-time);
     background: var(--white-color);
     border: 1px solid var(--card-portfborder-color); 
@@ -60,7 +60,7 @@ h2.project_name{
       box-shadow: var(--filter-items-shadow);
       transition: var(--cubic-animation-time);
 
-      & .project_thumb{
+      & .project__thumb{
         & p{
           transform: translateY(0);
           transition: transform var(--cubic-animation-time);
@@ -73,7 +73,7 @@ h2.project_name{
 
 }
 
-.project_filter{
+.project__filter{
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

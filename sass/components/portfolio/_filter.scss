@@ -1,5 +1,5 @@
 .filter{
-  &_button{
+  &__button{
     padding: 6px 22px;
     font-family: inherit;
     font-style: normal;
@@ -24,7 +24,7 @@
     }
   }
 
-  &_container{
+  &__container{
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;  
@@ -32,17 +32,17 @@
     padding-right: 15px;
   }
 
-  &_section{
+  &__section{
     padding: 94px 0;
   }
 
-  &_list{
+  &__list{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
   }
 
-  &_item{
+  &__item{
     margin-left: 8px;
 
     &:first-child{
