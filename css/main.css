@@ -543,6 +543,20 @@ a.page-footer__logo {
   fill: currentColor;
 }
 
+.page-footer__subscribe {
+  display: inline-block;
+  margin-left: 70px;
+}
+
+.page-footer__subscribe h3.common-title {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
 .page-footer__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -571,21 +585,7 @@ a.page-footer__logo {
   color: var(--white-color);
 }
 
-.page-footer__subscribe {
-  display: inline-block;
-  margin-left: 70px;
-}
-
-.page-footer__subscribe h3.common-title {
-  margin-bottom: 20px;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--white-color);
-}
-
-.page-footer .footer-button_sub {
+.page-footer__button {
   position: relative;
   display: inline-block;
   -webkit-box-align: baseline;
@@ -604,7 +604,7 @@ a.page-footer__logo {
   border: none;
 }
 
-.page-footer .footer-button_sub span {
+.page-footer__button span {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -623,7 +623,7 @@ a.page-footer__logo {
   color: var(--white-color);
 }
 
-.page-footer .footer-button_sub:focus, .page-footer .footer-button_sub:hover {
+.page-footer__button:focus, .page-footer__button:hover {
   fill: var(--white-color);
   color: var(--white-color);
   background-color: var(--first-color);
@@ -631,7 +631,7 @@ a.page-footer__logo {
   transition: var(--cubic-animation-time);
 }
 
-.page-footer .footer-icon_sub {
+.page-footer__ico {
   position: absolute;
   left: 73.31%;
   right: 15.19%;
