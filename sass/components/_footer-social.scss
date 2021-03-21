@@ -14,42 +14,44 @@
     }
   }
 
-  &__list{
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-
-    & li{
-      &:nth-child(n + 2){
-        margin-left: 10px;
+  .page-footer{
+    &__list{
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+  
+      & li{
+        &:nth-child(n + 2){
+          margin-left: 10px;
+        }
       }
     }
-  }
-
-  &__link{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    padding: 0;
-    border: none;
-    width: 44px;
-    height: 44px;
   
-    transition: var(--cubic-animation-time);
-    color: var(--white-color);
-    background-color: rgba(255, 255, 255, 0.1);
-
-    &:hover,&:focus{
-      fill: var(--white-color) ;
+    &__link{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      padding: 0;
+      border: none;
+      width: 44px;
+      height: 44px;
+    
+      transition: var(--cubic-animation-time);
       color: var(--white-color);
-      background-color: var(--first-color);
-      transition: var(--cubic-animation-time); 
+      background-color: rgba(255, 255, 255, 0.1);
+  
+      &:hover,&:focus{
+        fill: var(--white-color) ;
+        color: var(--white-color);
+        background-color: var(--first-color);
+        transition: var(--cubic-animation-time); 
+      }
     }
-  }
-
-  &__icon{
-    fill: currentColor;
+  
+    &__icon{
+      fill: currentColor;
+    }
   }
 }
 
